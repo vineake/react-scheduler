@@ -8,7 +8,7 @@
 ## Installation
 
 ```jsx
-npm i @aldabil/react-scheduler
+npm i @vineake/react-scheduler
 ```
 
 If you plan to use `recurring` events in your scheduler, install `rrule` [package](https://www.npmjs.com/package/rrule)
@@ -16,7 +16,7 @@ If you plan to use `recurring` events in your scheduler, install `rrule` [packag
 ## Usage
 
 ```jsx
-import { Scheduler } from "@aldabil/react-scheduler";
+import { Scheduler } from "@vineake/react-scheduler";
 ```
 
 ## Example
@@ -99,8 +99,8 @@ All props are _optional_
 Used to help manage and control the internal state of the `Scheduler` component from outside of `Scheduler` props, Example:
 
 ```js
-import { Scheduler } from "@aldabil/react-scheduler";
-import type { SchedulerRef } from "@aldabil/react-scheduler/types"
+import { Scheduler } from "@vineake/react-scheduler";
+import type { SchedulerRef } from "@vineake/react-scheduler/types"
 
 const SomeComponent = () => {
   const calendarRef = useRef<SchedulerRef>(null);
